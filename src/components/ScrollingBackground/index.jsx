@@ -172,7 +172,7 @@ const directions = [0, Math.PI / 2, Math.PI, (3 * Math.PI) / 2];
     window.addEventListener('resize', resizeCanvas);
 
     return () => window.removeEventListener('resize', resizeCanvas);
-  }, []);
+  }, );
 
   // Animation loop
   useEffect(() => {
